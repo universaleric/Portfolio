@@ -1,10 +1,18 @@
 nav.navbar.navbar-default {
   margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navbar {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
 }
 
 .navbar-nav {
   background-color: #42a9a6;
   font-size: large;
+  min-height: 10%;
 }
 
 .nav-item .nav-link {
