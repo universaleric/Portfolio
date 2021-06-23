@@ -9,11 +9,14 @@ function Home() {
     <div>
       <Container style={{ marginTop: 50 }}>
         <Row>
-          <Col size="md-6">
-            <p>Eric Hay</p>
+          <Col size="md-8">
+            <p className="home">Eric Hay</p>
           </Col>
-          <Col className="portrait" size="md-6">
-            <img src={Portrait} alt="placeholder" style={{ height: 500 }} />
+          <Col className="portrait" size="md-4">
+            <img
+              src={Portrait}
+              alt="placeholder"
+            />
           </Col>
         </Row>
       </Container>

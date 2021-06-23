@@ -18,7 +18,7 @@ function Navbar() {
                   : "nav-link"
               }
             >
-              home.
+              Home
             </Link>
           </li>
           <li className="nav-item">
@@ -30,7 +30,7 @@ function Navbar() {
                   : "nav-link"
               }
             >
-              about me.
+              About Me
             </Link>
           </li>
           <li className="nav-item">
@@ -42,7 +42,7 @@ function Navbar() {
                   : "nav-link"
               }
             >
-              contact.
+              Contact
             </Link>
           </li>
           <li className="nav-item">
@@ -54,7 +54,7 @@ function Navbar() {
                   : "nav-link"
               }
             >
-              skills.
+              Skills
             </Link>
           </li>
           <li className="nav-item">
@@ -66,7 +66,7 @@ function Navbar() {
                   : "nav-link"
               }
             >
-              projects.
+              Projects
             </Link>
           </li>
         </ul>

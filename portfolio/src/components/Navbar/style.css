@@ -13,6 +13,7 @@ nav.navbar.navbar-default {
   background-color: #42a9a6;
   font-size: large;
   min-height: 10%;
+  font-family: "Lobster", cursive;
 }
 
 .nav-item .nav-link {

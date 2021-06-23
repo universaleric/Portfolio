@@ -1,3 +1,16 @@
-p {
-  font-size: 150px;
+.home {
+  position: relative;
+  top: 50px;
+  font-family: "Lobster", cursive;
+  font-size: 200px;
+}
+
+.col-md-6 {
+  min-height: 100%;
+}
+
+img {
+  position: relative;
+  right: 50px;
+  height: 491px;
 }

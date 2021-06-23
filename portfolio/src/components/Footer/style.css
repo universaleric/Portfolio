@@ -7,7 +7,8 @@
 .footer span {
   position: absolute;
   bottom: 40%;
-  left: 0;
-  right: 0;
+  left: 50px;
+  right: 50px;
+  text-align: center;
   color: #42a9a6;
 }
