@@ -1,77 +1,48 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
 
-// Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function Navbar() {
+  const [click, setClick] = useState(false);
+
+  const handleClick = () => setClick(!click);
+  const closeMobileMenu = () => setClick(false);
+
   return (
-    <nav className="navbar navbar-expand-lg">
-      <div>
-        <ul className="navbar-nav">
+    <>
+      <nav className="navbar">
+        <div className="menu-icon" onClick={handleClick}>
+          <i className={click ? "fas fa-times" : "fas fa-bars"} />
+        </div>
+        <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className="nav-item">
-            <Link
-              to="/home"
-              className={
-                window.location.pathname === "/" ||
-                window.location.pathname === "/home"
-                  ? "nav-link active"
-                  : "nav-link"
-              }
-            >
+            <Link to="/" className="nav-links" onClick={closeMobileMenu}>
               Home
             </Link>
           </li>
           <li className="nav-item">
-            <Link
-              to="/aboutMe"
-              className={
-                window.location.pathname === "/aboutme"
-                  ? "nav-link active"
-                  : "nav-link"
-              }
-            >
+            <Link to="/aboutme" className="nav-links" onClick={closeMobileMenu}>
               About Me
             </Link>
           </li>
           <li className="nav-item">
-            <Link
-              to="/contact"
-              className={
-                window.location.pathname === "/contact"
-                  ? "nav-link active"
-                  : "nav-link"
-              }
-            >
+            <Link to="/contact" className="nav-links" onClick={closeMobileMenu}>
               Contact
             </Link>
           </li>
           <li className="nav-item">
-            <Link
-              to="/skills"
-              className={
-                window.location.pathname === "/skills"
-                  ? "nav-link active"
-                  : "nav-link"
-              }
-            >
+            <Link to="/skills" className="nav-links" onClick={closeMobileMenu}>
               Skills
             </Link>
           </li>
           <li className="nav-item">
-            <Link
-              to="/projects"
-              className={
-                window.location.pathname === "/projects"
-                  ? "nav-link active"
-                  : "nav-link"
-              }
-            >
+            <Link to="/projects" className="nav-links" onClick={closeMobileMenu}>
               Projects
             </Link>
           </li>
         </ul>
-      </div>
-    </nav>
+      </nav>
+    </>
   );
 }
 

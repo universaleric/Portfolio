@@ -5,12 +5,27 @@
   font-size: 200px;
 }
 
+@media only screen and (max-width: 480px) {
+  .home {
+    font-size: 100px;
+  }
+}
+
+.about {
+  position: relative;
+  top: 50px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 25px;
+}
+
 .col-md-6 {
   min-height: 100%;
 }
 
 img {
   position: relative;
+  vertical-align: baseline;
+  top: 0;
   right: 50px;
-  height: 491px;
+  height: 565px;
 }
