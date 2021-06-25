@@ -2,27 +2,41 @@ import React from "react";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
+import Fade from "react-reveal/Fade";
+import Portrait from "../img/Portrait.png";
 
 function Contact() {
   return (
     <div>
-      <Container style={{ marginTop: 30 }}>
+      <Container>
         <Row>
-          <Col size="md-12">
-            <h1>contact.</h1>
+          <Col size="md-8">
+            <Fade left cascade>
+              <ul className="list">
+                <li>
+                  <i class="fas fa-phone"></i> (972).955.2176
+                </li>
+                <li>
+                  <i className="fas fa-envelope"></i> ericdanielhay@yahoo.com
+                </li>
+                <li>
+                  <i class="fab fa-github"></i> <a href="github.com/universaleric">Github Account</a>
+                </li>
+                <li>
+                  <i className="fab fa-linkedin"></i>{" "}
+                  <a href="linkedin.com/in/eric-hay-06b03371">LinkedIn Profile</a>
+                </li>
+                <li>
+                  <i className="fas fa-file"></i>{" "}
+                  <a href="https://drive.google.com/file/d/1AgcHLaYvDNc_X-yhcfJyPAQp51-1tN9M/view?usp=sharing">Resume</a>
+                </li>
+              </ul>
+            </Fade>
           </Col>
-        </Row>
-        <Row>
-          <Col size="md-12">
-            <ul>
-              <li>email: ericdanielhay@yahoo.com</li>
-              <li>phone: (972).955.2176</li>
-              <li>github: github.com/universaleric</li>
-              <li>LinkedIn: www.linkedin.com/in/eric-hay-06b03371</li>
-              <li>
-                Resume: <a href="../img/Resume.pdf">Eric Hay</a>
-              </li>
-            </ul>
+          <Col size="md-4">
+            <Fade>
+              <img src={Portrait} alt="placeholder" />
+            </Fade>
           </Col>
         </Row>
       </Container>

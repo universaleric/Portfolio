@@ -33,3 +33,48 @@ img {
   right: 0px;
   height: 470px;
 }
+
+.list {
+  position: relative;
+  list-style-type: none;
+  left: 35%;
+  top: 20%;
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+  font-family: "Quicksand", sans-serif;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #fff5ea;
+}
+
+a:link {
+  text-decoration: none;
+  color: #fff5ea;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #fff5ea;
+}
+
+figure {
+  position: relative;
+  border: 5px solid;
+  left: 15%;
+}
+
+.project {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.cap {
+  position: relative;
+  font-size: 25px;
+  font-family: "Quicksand", sans-serif;
+  left: 15%;
+}

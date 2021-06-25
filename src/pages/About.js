@@ -3,7 +3,6 @@ import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
 import Fade from "react-reveal/Fade";
-// import Portrait from "../img/Portrait.png";
 import Hedgehog from "../img/Hedgehog.png";
 
 function About() {
