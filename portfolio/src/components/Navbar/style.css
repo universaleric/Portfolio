@@ -2,7 +2,7 @@
   position: relative;
   padding-top: 0rem !important;
   padding-bottom: 0rem !important;
-  max-height: 10%;
+  min-height: 10%;
   display: flex;
   justify-content: left;
   align-items:flex-start;
@@ -82,7 +82,7 @@
   }
 
   .nav-menu.active {
-    background: #242222;
+    background: #2f7976;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
@@ -97,7 +97,7 @@
   }
 
   .nav-links:hover {
-    background-color: #1888ff;
+    background-color: #42a9a6;
     border-radius: 0;
   }
 
@@ -130,7 +130,7 @@
     margin: 2rem auto;
     border-radius: 4px;
     width: 80%;
-    background: #1888ff;
+    background: #42a9a6;
     text-decoration: none;
     color: #fff5ea;
     font-size: 1.5rem;
@@ -138,7 +138,7 @@
 
   .nav-links-mobile:hover {
     background: #fff5ea;
-    color: #1888ff;
+    color: #42a9a6;
     transition: 250ms;
   }
 
