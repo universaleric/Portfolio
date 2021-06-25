@@ -3,23 +3,46 @@ import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
 import Fade from "react-reveal/Fade";
-import Portrait from "../img/Portrait.png";
+// import Portrait from "../img/Portrait.png";
+import Hedgehog from "../img/Hedgehog.png";
 
 function About() {
   return (
     <div>
       <Container>
         <Row>
-          <Col size="md-8">
-            <Fade left>
-              <p className="about">
-                Hey there! I'm a 30 year old web developer from the great state of Texas. I like watching movies and hockey and enjoy reading while listening to smooth jazz. Professionally, I love working with others and collaborating to make the most of our collective talent. I think the little things matter and can make or break the feel and function of a website. Oh, and I have a hedgehog as my assistant.
-              </p>
+          <Col size="md-4">
+            <Fade>
+              <img className="hedgehog" src={Hedgehog} alt="placeholder" />
             </Fade>
           </Col>
-          <Col className="portrait" size="md-4">
-            <Fade>
-              <img src={Portrait} alt="placeholder" />
+          <Col size="md-8">
+            <Fade right cascade>
+              <div>
+                <p className="about">
+                  I’m a web developer living in the great state of Texas. I
+                  believe the littlest of details matter, especially when it
+                  comes to the feel and function of a website. I strive to
+                  create intuitive, delightful experiences that not only look
+                  great, but function seamlessly as well.{" "}
+                </p>
+
+                <p className="about">
+                  {" "}
+                  I’m no stranger to complex problem solving and creating great
+                  experiences. In my prior life, I worked in the restaurant
+                  industry, triaging problems on the fly, in a fast-paced
+                  environment in order to make sure every employee under my care
+                  felt supported and every customer left happy.{" "}
+                </p>
+
+                <p className="about">
+                  I prefer to work on collaborative teams where each person can
+                  bring their strengths together under a unified vision. How
+                  might we get started re-imagining your digital experience?
+                  Looking forward to connecting with you soon!
+                </p>
+              </div>
             </Fade>
           </Col>
         </Row>

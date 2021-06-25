@@ -1,6 +1,7 @@
 .home {
   position: relative;
   top: 50px;
+  left: 125px;
   font-family: "Lobster", cursive;
   font-size: 200px;
 }
@@ -13,19 +14,22 @@
 
 .about {
   position: relative;
-  top: 50px;
-  font-family: 'Quicksand', sans-serif;
+  top: 25px;
+  font-family: "Quicksand", sans-serif;
   font-size: 25px;
-}
-
-.col-md-6 {
-  min-height: 100%;
 }
 
 img {
   position: relative;
   vertical-align: baseline;
   top: 0;
-  right: 50px;
   height: 565px;
+}
+
+.hedgehog {
+  top: 75px;
+  position: relative;
+  vertical-align: baseline;
+  right: 0px;
+  height: 470px;
 }
