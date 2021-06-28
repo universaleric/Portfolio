@@ -16,157 +16,157 @@ function Skills() {
       <Container>
         <Row>
           <Col size="md-8">
-          <Fade left cascade>
-            <ul className="list">
-              <li onMouseOver={handleHover}>
-                HTML5{" "}
-                <Spin when={hover}>
-                  <i className="fas fa-star"></i>
-                </Spin>
-                <Spin when={hover}>
-                  <i className="fas fa-star"></i>
-                </Spin>
-                <Spin when={hover}>
-                  <i className="fas fa-star"></i>
-                </Spin>
-                <Spin when={hover}>
-                  <i className="fas fa-star"></i>
-                </Spin>
-                <Spin when={hover}>
-                  <i className="fas fa-star"></i>
-                </Spin>
-              </li>
-              <li onMouseOver={handleHover}>
-                CSS{" "}
-                <Spin when={hover}>
-                  <i className="fas fa-star"></i>
-                </Spin>
-                <Spin when={hover}>
-                  <i className="fas fa-star"></i>
-                </Spin>
-                <Spin when={hover}>
-                  <i className="fas fa-star"></i>
-                </Spin>
-                <Spin when={hover}>
-                  <i className="fas fa-star"></i>
-                </Spin>
-                <Spin when={hover}>
-                  <i className="fas fa-star"></i>
-                </Spin>
-              </li>
-              <li onMouseOver={handleHover}>
-                Javascript{" "}
-                <Spin when={hover}>
-                  <i className="fas fa-star"></i>
-                </Spin>
-                <Spin when={hover}>
-                  <i className="fas fa-star"></i>
-                </Spin>
-                <Spin when={hover}>
-                  <i className="fas fa-star"></i>
-                </Spin>
-                <Spin when={hover}>
-                  <i className="fas fa-star"></i>
-                </Spin>
-                <Spin when={hover}>
-                  <i className="fas fa-star"></i>
-                </Spin>
-              </li>
-              <li onMouseOver={handleHover}>
-                MongoDB{" "}
-                <Spin when={hover}>
-                  <i className="fas fa-star"></i>
-                </Spin>
-                <Spin when={hover}>
-                  <i className="fas fa-star"></i>
-                </Spin>
-                <Spin when={hover}>
-                  <i className="fas fa-star"></i>
-                </Spin>
-                <Spin when={hover}>
-                  <i className="far fa-star"></i>
-                </Spin>
-                <Spin when={hover}>
-                  <i className="far fa-star"></i>
-                </Spin>
-              </li>
-              <li onMouseOver={handleHover}>
-                MySQL{" "}
-                <Spin when={hover}>
-                  <i className="fas fa-star"></i>
-                </Spin>
-                <Spin when={hover}>
-                  <i className="fas fa-star"></i>
-                </Spin>
-                <Spin when={hover}>
-                  <i className="fas fa-star"></i>
-                </Spin>
-                <Spin when={hover}>
-                  <i className="fas fa-star"></i>
-                </Spin>
-                <Spin when={hover}>
-                  <i className="far fa-star"></i>
-                </Spin>
-              </li>
-              <li onMouseOver={handleHover}>
-                React.js{" "}
-                <Spin when={hover}>
-                  <i className="fas fa-star"></i>
-                </Spin>
-                <Spin when={hover}>
-                  <i className="fas fa-star"></i>
-                </Spin>
-                <Spin when={hover}>
-                  <i className="fas fa-star"></i>
-                </Spin>
-                <Spin when={hover}>
-                  <i className="fas fa-star"></i>
-                </Spin>
-                <Spin when={hover}>
-                  <i className="far fa-star"></i>
-                </Spin>
-              </li>
-              <li onMouseOver={handleHover}>
-                Node.js{" "}
-                <Spin when={hover}>
-                  <i className="fas fa-star"></i>
-                </Spin>
-                <Spin when={hover}>
-                  <i className="fas fa-star"></i>
-                </Spin>
-                <Spin when={hover}>
-                  <i className="fas fa-star"></i>
-                </Spin>
-                <Spin when={hover}>
-                  <i className="fas fa-star"></i>
-                </Spin>
-                <Spin when={hover}>
-                  <i className="far fa-star"></i>
-                </Spin>
-              </li>
-              <li onMouseOver={handleHover}>
-                Photoshop{" "}
-                <Spin when={hover}>
-                  <i className="fas fa-star"></i>
-                </Spin>
-                <Spin when={hover}>
-                  <i className="fas fa-star"></i>
-                </Spin>
-                <Spin when={hover}>
-                  <i className="fas fa-star"></i>
-                </Spin>
-                <Spin when={hover}>
-                  <i className="fas fa-star"></i>
-                </Spin>
-                <Spin when={hover}>
-                  <i className="fas fa-star"></i>
-                </Spin>
-              </li>
-            </ul>
+            <Fade left cascade>
+              <ul className="list">
+                <li onMouseOver={handleHover}>
+                  HTML5{" "}
+                  <Spin when={hover}>
+                    <i className="fas fa-star"></i>
+                  </Spin>
+                  <Spin when={hover}>
+                    <i className="fas fa-star"></i>
+                  </Spin>
+                  <Spin when={hover}>
+                    <i className="fas fa-star"></i>
+                  </Spin>
+                  <Spin when={hover}>
+                    <i className="fas fa-star"></i>
+                  </Spin>
+                  <Spin when={hover}>
+                    <i className="fas fa-star"></i>
+                  </Spin>
+                </li>
+                <li onMouseOver={handleHover}>
+                  CSS{" "}
+                  <Spin when={hover}>
+                    <i className="fas fa-star"></i>
+                  </Spin>
+                  <Spin when={hover}>
+                    <i className="fas fa-star"></i>
+                  </Spin>
+                  <Spin when={hover}>
+                    <i className="fas fa-star"></i>
+                  </Spin>
+                  <Spin when={hover}>
+                    <i className="fas fa-star"></i>
+                  </Spin>
+                  <Spin when={hover}>
+                    <i className="fas fa-star"></i>
+                  </Spin>
+                </li>
+                <li onMouseOver={handleHover}>
+                  Javascript{" "}
+                  <Spin when={hover}>
+                    <i className="fas fa-star"></i>
+                  </Spin>
+                  <Spin when={hover}>
+                    <i className="fas fa-star"></i>
+                  </Spin>
+                  <Spin when={hover}>
+                    <i className="fas fa-star"></i>
+                  </Spin>
+                  <Spin when={hover}>
+                    <i className="fas fa-star"></i>
+                  </Spin>
+                  <Spin when={hover}>
+                    <i className="fas fa-star"></i>
+                  </Spin>
+                </li>
+                <li onMouseOver={handleHover}>
+                  MongoDB{" "}
+                  <Spin when={hover}>
+                    <i className="fas fa-star"></i>
+                  </Spin>
+                  <Spin when={hover}>
+                    <i className="fas fa-star"></i>
+                  </Spin>
+                  <Spin when={hover}>
+                    <i className="fas fa-star"></i>
+                  </Spin>
+                  <Spin when={hover}>
+                    <i className="far fa-star"></i>
+                  </Spin>
+                  <Spin when={hover}>
+                    <i className="far fa-star"></i>
+                  </Spin>
+                </li>
+                <li onMouseOver={handleHover}>
+                  MySQL{" "}
+                  <Spin when={hover}>
+                    <i className="fas fa-star"></i>
+                  </Spin>
+                  <Spin when={hover}>
+                    <i className="fas fa-star"></i>
+                  </Spin>
+                  <Spin when={hover}>
+                    <i className="fas fa-star"></i>
+                  </Spin>
+                  <Spin when={hover}>
+                    <i className="fas fa-star"></i>
+                  </Spin>
+                  <Spin when={hover}>
+                    <i className="far fa-star"></i>
+                  </Spin>
+                </li>
+                <li onMouseOver={handleHover}>
+                  React.js{" "}
+                  <Spin when={hover}>
+                    <i className="fas fa-star"></i>
+                  </Spin>
+                  <Spin when={hover}>
+                    <i className="fas fa-star"></i>
+                  </Spin>
+                  <Spin when={hover}>
+                    <i className="fas fa-star"></i>
+                  </Spin>
+                  <Spin when={hover}>
+                    <i className="fas fa-star"></i>
+                  </Spin>
+                  <Spin when={hover}>
+                    <i className="far fa-star"></i>
+                  </Spin>
+                </li>
+                <li onMouseOver={handleHover}>
+                  Node.js{" "}
+                  <Spin when={hover}>
+                    <i className="fas fa-star"></i>
+                  </Spin>
+                  <Spin when={hover}>
+                    <i className="fas fa-star"></i>
+                  </Spin>
+                  <Spin when={hover}>
+                    <i className="fas fa-star"></i>
+                  </Spin>
+                  <Spin when={hover}>
+                    <i className="fas fa-star"></i>
+                  </Spin>
+                  <Spin when={hover}>
+                    <i className="far fa-star"></i>
+                  </Spin>
+                </li>
+                <li onMouseOver={handleHover}>
+                  Photoshop{" "}
+                  <Spin when={hover}>
+                    <i className="fas fa-star"></i>
+                  </Spin>
+                  <Spin when={hover}>
+                    <i className="fas fa-star"></i>
+                  </Spin>
+                  <Spin when={hover}>
+                    <i className="fas fa-star"></i>
+                  </Spin>
+                  <Spin when={hover}>
+                    <i className="fas fa-star"></i>
+                  </Spin>
+                  <Spin when={hover}>
+                    <i className="fas fa-star"></i>
+                  </Spin>
+                </li>
+              </ul>
             </Fade>
           </Col>
           <Col size="md-4">
-          <Fade>
+            <Fade>
               <img src={Portrait} alt="placeholder" />
             </Fade>
           </Col>

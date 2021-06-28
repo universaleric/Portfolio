@@ -6,9 +6,27 @@
   font-size: 200px;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 575px) {
   .home {
     font-size: 100px;
+    left: 15px;
+  }
+
+  .list {
+    left: 15%;
+  }
+
+  img {
+    right: 50px;
+  }
+
+  .about {
+    text-align: center;
+  }
+
+  .rowAbout {
+    display: flex;
+    flex-direction: column-reverse;
   }
 }
 
@@ -37,7 +55,7 @@ img {
 .list {
   position: relative;
   list-style-type: none;
-  left: 35%;
+  left: 250px;
   top: 20%;
   margin: 0;
   padding: 0;

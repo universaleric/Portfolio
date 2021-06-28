@@ -20,15 +20,22 @@ function Contact() {
                   <i className="fas fa-envelope"></i> ericdanielhay@yahoo.com
                 </li>
                 <li>
-                  <i class="fab fa-github"></i> <a href="github.com/universaleric">Github Account</a>
+                  <i class="fab fa-github"></i>{" "}
+                  <a href="https://www.github.com/universaleric">
+                    Github Account
+                  </a>
                 </li>
                 <li>
                   <i className="fab fa-linkedin"></i>{" "}
-                  <a href="linkedin.com/in/eric-hay-06b03371">LinkedIn Profile</a>
+                  <a href="https://www.linkedin.com/in/eric-hay-06b03371">
+                    LinkedIn Profile
+                  </a>
                 </li>
                 <li>
                   <i className="fas fa-file"></i>{" "}
-                  <a href="https://drive.google.com/file/d/1AgcHLaYvDNc_X-yhcfJyPAQp51-1tN9M/view?usp=sharing">Resume</a>
+                  <a href="https://drive.google.com/file/d/1AgcHLaYvDNc_X-yhcfJyPAQp51-1tN9M/view?usp=sharing">
+                    Resume
+                  </a>
                 </li>
               </ul>
             </Fade>

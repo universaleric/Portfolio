@@ -4,17 +4,22 @@
   position: sticky;
   padding: 40px 30px;
   bottom: 0;
+  text-align: center;
 }
 
 .footer span {
   position: sticky;
   text-align: center;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   color: #42a9a6;
 }
 
-@media only screen and (max-width: 480px) {
-  .footer span{
+@media only screen and (max-width: 575px) {
+  .footer {
+    padding: 10px;
+  }
+
+  .footer span {
     font-size: 10px;
   }
 }
