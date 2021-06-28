@@ -26,7 +26,6 @@ function Projects() {
                 <img className="project"
                   src={Artopolis}
                   alt="placeholder"
-                  style={{ height: 200 }}
                 />
               </a>
             </figure>
@@ -40,7 +39,6 @@ function Projects() {
                 <img className="project"
                   src={Quiz}
                   alt="placeholder"
-                  style={{ height: 200}}
                 />
               </a>
             </figure>
@@ -60,7 +58,6 @@ function Projects() {
                 <img className="project"
                   src={Planner}
                   alt="placeholder"
-                  style={{ height: 200}}
                 />
               </a>
             </figure>
@@ -74,7 +71,6 @@ function Projects() {
                 <img className="project"
                   src={Weather}
                   alt="placeholder"
-                  style={{ height: 200}}
                 />
               </a>
             </figure>

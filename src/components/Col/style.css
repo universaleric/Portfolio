@@ -10,6 +10,7 @@
   .home {
     font-size: 100px;
     left: 15px;
+    padding-bottom: 50px !important;
   }
 
   .list {
@@ -22,8 +23,25 @@
     left: -10px !important;
   }
 
+  figure {
+    left: 10px !important;
+    top: 10px;
+    width: 325px !important;
+  }
+
+  .project {
+    left: 0px;
+    top: 0px !important;
+  }
+
+  .cap {
+    left: 10px !important;
+    top: 10px;
+  }
+
   img {
     right: 50px;
+    top: 10px !important;
   }
 
   .about {
@@ -91,7 +109,10 @@ a:visited {
 figure {
   position: relative;
   border: 5px solid;
-  left: 15%;
+  left: 100px;
+  height: 200px;
+  width: 650px;
+  margin: auto;
 }
 
 .project {
@@ -104,5 +125,5 @@ figure {
   position: relative;
   font-size: 25px;
   font-family: "Quicksand", sans-serif;
-  left: 15%;
+  left: 100px;
 }
