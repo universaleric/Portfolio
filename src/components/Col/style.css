@@ -13,7 +13,13 @@
   }
 
   .list {
-    left: 15%;
+    left: 5px !important;
+    padding-bottom: 100px !important;
+    text-align: center;
+  }
+
+  .listContact {
+    left: -10px !important;
   }
 
   img {
@@ -27,6 +33,10 @@
   .rowAbout {
     display: flex;
     flex-direction: column-reverse;
+  }
+
+  .contact {
+    font-size: 23px;
   }
 }
 
