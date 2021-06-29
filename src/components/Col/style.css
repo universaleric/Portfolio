@@ -8,9 +8,9 @@
 
 @media only screen and (max-width: 575px) {
   .home {
+    top: 25px;
     font-size: 100px;
     left: 15px;
-    padding-bottom: 50px !important;
   }
 
   .list {
