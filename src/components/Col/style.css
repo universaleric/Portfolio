@@ -20,7 +20,8 @@
   }
 
   .listContact {
-    left: -10px !important;
+    top: 100px !important;
+    right: 10px !important;
   }
 
   figure {
@@ -48,6 +49,10 @@
     height: 400px;
     right: 0px;
     left: 10px;
+  }
+
+  .mobilePortrait {
+    display: none;
   }
 
   .about {
