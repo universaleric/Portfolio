@@ -44,6 +44,12 @@
     top: 10px !important;
   }
 
+  .portrait {
+    height: 400px;
+    right: 0px;
+    left: 10px;
+  }
+
   .about {
     text-align: center;
   }

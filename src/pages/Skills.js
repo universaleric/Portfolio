@@ -167,7 +167,7 @@ function Skills() {
           </Col>
           <Col size="md-4">
             <Fade>
-              <img src={Portrait} alt="placeholder" />
+              <img className="portrait" src={Portrait} alt="placeholder" />
             </Fade>
           </Col>
         </Row>

@@ -15,9 +15,9 @@ function Home() {
               <p className="home">Eric Hay</p>
             </Fade>
           </Col>
-          <Col className="portrait" size="md-4">
+          <Col  size="md-4">
             <Fade>
-              <img src={Portrait} alt="placeholder" />
+              <img className="portrait" src={Portrait} alt="placeholder" />
             </Fade>
           </Col>
         </Row>
