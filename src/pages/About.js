@@ -42,6 +42,11 @@ function About() {
                       How might we get started re-imagining your digital
                       experience? Looking forward to connecting with you soon!
                     </p>
+
+                    <p className="about">
+                      Oh, and I have a hedgehog as my assistant!
+                    </p>
+
                   </div>
                 </Fade>
               </Col>

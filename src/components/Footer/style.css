@@ -1,15 +1,14 @@
 .footer {
-  min-height: 20%;
+  min-height: 15%;
   background-color: #fff5ea;
   position: sticky;
-  padding: 40px 30px;
+  padding: 60px 30px;
   bottom: 0;
   text-align: center;
 }
 
 .footer span {
   position: sticky;
-  text-align: center;
   font-family: "Quicksand", sans-serif;
   color: #42a9a6;
 }
