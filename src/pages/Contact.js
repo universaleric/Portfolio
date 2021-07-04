@@ -42,7 +42,7 @@ function Contact() {
           </Col>
           <Col size="md-4">
             <Fade>
-              <img className="portrait mobilePortrait" src={Portrait} alt="placeholder" />
+              <img className="portrait skillPortrait mobilePortrait" src={Portrait} alt="placeholder" />
             </Fade>
           </Col>
         </Row>
