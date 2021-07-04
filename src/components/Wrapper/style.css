@@ -1,8 +1,7 @@
 .wrapper {
   position: relative;
   vertical-align: baseline;
-  min-height: 75%;
-  overflow: auto;
+  min-height: calc(100% - 180px);
+  overflow: hidden;
   color: #fff5ea;
 }
-

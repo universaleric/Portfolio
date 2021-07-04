@@ -8,6 +8,7 @@ import Projects from "./pages/Projects";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
+import ScrollTopArrow from "./components/ScrollTopArrow";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route exact path="/skills" component={Skills} />
           <Route exact path="/projects" component={Projects} />
         </Wrapper>
+        <ScrollTopArrow />
         <Footer />
       </div>
     </Router>

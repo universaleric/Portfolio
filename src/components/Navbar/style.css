@@ -2,7 +2,7 @@
   position: relative;
   padding-top: 0rem !important;
   padding-bottom: 0rem !important;
-  min-height: 10%;
+  height: 60px;
   display: flex;
   justify-content: left;
   align-items:flex-start;

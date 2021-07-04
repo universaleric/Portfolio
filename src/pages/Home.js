@@ -7,7 +7,7 @@ import Portrait from "../img/Portrait.png";
 
 function Home() {
   return (
-    <div>
+    <div className="box">
       <Container>
         <Row>
           <Col size="md-8">

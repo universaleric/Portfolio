@@ -1,9 +1,84 @@
+.col-md-8,
+.col-md-4 {
+  position: relative;
+  height: 100%;
+}
+
 .home {
   position: relative;
   top: 50px;
   left: 125px;
   font-family: "Lobster", cursive;
   font-size: 200px;
+}
+
+.about {
+  position: relative;
+  top: 25px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 23px;
+}
+
+img {
+  position: relative;
+  bottom: 0;
+  top: 0;
+  height: 565px;
+}
+
+.hedgehog {
+  position: relative;
+  bottom: 0;
+  right: 0;
+  height: 470px;
+}
+
+.list {
+  position: relative;
+  list-style-type: none;
+  left: 250px;
+  top: 50px;
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+  font-family: "Quicksand", sans-serif;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #fff5ea;
+}
+
+a:link {
+  text-decoration: none;
+  color: #fff5ea;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #fff5ea;
+}
+
+figure {
+  position: relative;
+  border: 5px solid;
+  left: 100px;
+  height: 200px;
+  width: 650px;
+  margin: auto;
+}
+
+.project {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.cap {
+  position: relative;
+  font-size: 25px;
+  font-family: "Quicksand", sans-serif;
+  left: 100px;
 }
 
 @media only screen and (max-width: 575px) {
@@ -67,74 +142,4 @@
   .contact {
     font-size: 23px;
   }
-}
-
-.about {
-  position: relative;
-  top: 25px;
-  font-family: "Quicksand", sans-serif;
-  font-size: 23px;
-}
-
-img {
-  position: relative;
-  vertical-align: baseline;
-  top: 0;
-  height: 565px;
-}
-
-.hedgehog {
-  top: 75px;
-  position: relative;
-  vertical-align: baseline;
-  right: 0px;
-  height: 470px;
-}
-
-.list {
-  position: relative;
-  list-style-type: none;
-  left: 250px;
-  top: 20%;
-  margin: 0;
-  padding: 0;
-  font-size: 25px;
-  font-family: "Quicksand", sans-serif;
-}
-
-a:hover {
-  text-decoration: none;
-  color: #fff5ea;
-}
-
-a:link {
-  text-decoration: none;
-  color: #fff5ea;
-}
-
-a:visited {
-  text-decoration: none;
-  color: #fff5ea;
-}
-
-figure {
-  position: relative;
-  border: 5px solid;
-  left: 100px;
-  height: 200px;
-  width: 650px;
-  margin: auto;
-}
-
-.project {
-  position: relative;
-  height: 100%;
-  width: 100%;
-}
-
-.cap {
-  position: relative;
-  font-size: 25px;
-  font-family: "Quicksand", sans-serif;
-  left: 100px;
 }
