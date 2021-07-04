@@ -82,7 +82,7 @@ figure {
   height: 200px;
   width: 650px;
   margin: auto;
-  bottom: 50px;
+  bottom: 150px;
 }
 
 .project {
@@ -96,7 +96,7 @@ figure {
   font-size: 25px;
   font-family: "Quicksand", sans-serif;
   left: 100px;
-  bottom: 50px;
+  bottom: 150px;
 }
 
 @media only screen and (max-width: 768px) {
