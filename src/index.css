@@ -11,4 +11,5 @@ div[data-reactroot] {
   padding: 0;
   margin: 0;
   background-color: #42a9a6;
+  overscroll-behavior: none;
 }
