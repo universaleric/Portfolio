@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "../components/Container";
-import Row from "../components/Row";
+import RowHome from "../components/RowHome";
 import Col from "../components/Col";
 import Fade from "react-reveal/Fade";
 import Portrait from "../img/Portrait.png";
@@ -9,7 +9,7 @@ function Home() {
   return (
     <div className="box">
       <Container>
-        <Row>
+        <RowHome>
           <Col size="md-8">
             <Fade left>
               <p className="home">Eric Hay</p>
@@ -20,7 +20,7 @@ function Home() {
               <img className="portrait" src={Portrait} alt="placeholder" />
             </Fade>
           </Col>
-        </Row>
+        </RowHome>
       </Container>
     </div>
   );
