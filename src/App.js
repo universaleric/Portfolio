@@ -22,7 +22,6 @@ function App() {
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/skills" component={Skills} />
           <Route exact path="/projects" component={Projects} />
-          <Route exact path="/*" component={Home} />
         </Wrapper>
         <ScrollTopArrow />
         <Footer />

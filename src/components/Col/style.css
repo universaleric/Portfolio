@@ -123,9 +123,12 @@ figure {
 
   .about {
     position: relative;
+    width: 100%;
+    left: 30px;
     bottom: 50px;
     font-family: "Quicksand", sans-serif;
     font-size: 23px;
+    text-align: left;
   }
 
   img {
