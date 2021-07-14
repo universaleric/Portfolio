@@ -12,7 +12,7 @@ import ScrollTopArrow from "./components/ScrollTopArrow";
 
 function App() {
   return (
-    <Router basename="/portfolio">
+    <Router>
       <div>
         <Navbar />
         <Wrapper>
