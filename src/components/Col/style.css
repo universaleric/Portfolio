@@ -284,8 +284,8 @@ figure {
   }
 
   .list {
-    left: 60px !important;
-    padding-bottom: 100px !important;
+    left: 140px !important;
+    padding-bottom: 50px !important;
     text-align: center;
     top: -125px;
   }
@@ -353,13 +353,14 @@ figure {
   }
 
   .list {
-    left: 45px !important;
-    top: 0px;
+    left: 115px !important;
+    top: -50px;
   }
 
   .listContact {
     left: 15px !important;
     top: -50px !important;
+    padding-bottom: 120px !important;
   }
 
   figure {
