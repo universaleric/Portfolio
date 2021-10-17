@@ -285,9 +285,8 @@ figure {
 
   .list {
     left: 140px !important;
-    padding-bottom: 50px !important;
     text-align: center;
-    top: -125px;
+    top: -100px;
   }
 
   .listContact {
@@ -307,8 +306,13 @@ figure {
   }
 
   .cap {
-    left: 45px !important;
+    left: 0px !important;
     top: 10px;
+    text-align: center;
+  }
+
+  .description {
+    font-size: 18px !important;
   }
 
   img {
@@ -330,6 +334,7 @@ figure {
     text-align: center;
     left: 0px !important;
     top: 10px;
+    padding: 0px 10px;
   }
 
   .hedgehog {
@@ -364,11 +369,7 @@ figure {
   }
 
   figure {
-    left: 15px !important;
-  }
-
-  .cap {
-    left: 15px !important;
+    left: 25px !important;
   }
 
   .portrait {
