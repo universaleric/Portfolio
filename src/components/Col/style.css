@@ -276,6 +276,18 @@ figure {
   }
 }
 
+@media only screen and (max-width: 769px) {
+  figure{
+    bottom: 100px;
+    left: 35px !important;
+  }
+
+  .cap{
+    left: 35px !important;
+    bottom: 100px;
+  }
+}
+
 @media only screen and (max-width: 575.98px) {
   .home {
     top: 25px;
@@ -298,6 +310,7 @@ figure {
     left: 45px !important;
     top: 10px;
     width: 325px !important;
+    margin: 0 0 1rem;
   }
 
   .project {
