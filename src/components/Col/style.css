@@ -81,11 +81,11 @@ a:visited {
 figure {
   position: relative;
   border: 5px solid;
-  left: 350px;
+  left: 250px;
   height: 200px;
   width: 650px;
   margin: auto;
-  bottom: 150px;
+  bottom: 0px;
 }
 
 .project {
@@ -98,8 +98,8 @@ figure {
   position: relative;
   font-size: 35px;
   font-family: "Quicksand", sans-serif;
-  left: 350px;
-  bottom: 150px;
+  left: 250px;
+  bottom: 0px;
 }
 
 .description {

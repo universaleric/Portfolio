@@ -4,6 +4,7 @@
   align-items: flex-end;
   min-height: calc(100% - 180px);
   color: #fff5ea;
+  padding-bottom: 120px;
 }
 
 @media only screen and (max-width: 768px) {
