@@ -173,7 +173,6 @@ figure {
     left: 100px;
     height: 150px;
     width: 487px;
-    margin: auto;
     bottom: 25px;
   }
 
@@ -277,12 +276,12 @@ figure {
 }
 
 @media only screen and (max-width: 769px) {
-  figure{
+  figure {
     bottom: 100px;
     left: 35px !important;
   }
 
-  .cap{
+  .cap {
     left: 35px !important;
     bottom: 100px;
   }
