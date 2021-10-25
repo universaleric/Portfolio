@@ -33,7 +33,7 @@ function Contact() {
                 </li>
                 <li className="contact">
                   <i className="fas fa-file"></i>{" "}
-                  <a href="https://drive.google.com/file/d/1AgcHLaYvDNc_X-yhcfJyPAQp51-1tN9M/view?usp=sharing">
+                  <a href="https://drive.google.com/file/d/1hOqPZpH2BAYaXiABsyHmMLF0_e5Svjnt/view?usp=sharing">
                     Resume
                   </a>
                 </li>
@@ -42,7 +42,11 @@ function Contact() {
           </Col>
           <Col size="md-4">
             <Fade>
-              <img className="portrait skillPortrait mobilePortrait" src={Portrait} alt="placeholder" />
+              <img
+                className="portrait skillPortrait mobilePortrait"
+                src={Portrait}
+                alt="placeholder"
+              />
             </Fade>
           </Col>
         </Row>

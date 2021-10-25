@@ -31,8 +31,11 @@ function Projects() {
                   </a>
                 </figure>
                 <p className="cap description">
-                  This project is an example website that pulls art pieces from
+                  Artopolis is an example website that pulls art pieces from
                   the APIs of three museums and displays them on the site.
+                </p>
+                <p className="cap description filler">
+                  Created With: HTML5, CSS3, JavaScript, and Bootstrap
                 </p>
                 <figcaption className="cap">Book Search</figcaption>
                 <figure>
@@ -45,7 +48,10 @@ function Projects() {
                   </a>
                 </figure>
                 <p className="cap description">
-                  This site allows the user to search for books by title or topic and save them to a list on a seperate tab. Saved searches can be deleted.
+                  This site allows the user to search for books from the Google Books API and save them to a list on a seperate tab.
+                </p>
+                <p className="cap description filler">
+                  Created With: HTML5, CSS3, JavaScript, Mongoose, MongoDB, React, and Bootstrap
                 </p>
               </div>
             </Fade>
@@ -64,9 +70,12 @@ function Projects() {
                   </a>
                 </figure>
                 <p className="cap description">
-                  This planner allows the user to input daily tasks and save
-                  them to local storage. The hours are color coded based on the
+                  This day planner allows the user to input daily tasks and save
+                  them to local storage. Hours are color coded based on the
                   current hour.
+                </p>
+                <p className="cap description filler">
+                  Created With: HTML5, CSS3, JavaScript, and Bootstrap
                 </p>
                 <figcaption className="cap">Weather Dashboard</figcaption>
                 <figure>
@@ -79,9 +88,12 @@ function Projects() {
                   </a>
                 </figure>
                 <p className="cap description">
-                  This dashboard allows the user to search for the weather of
+                  Weather Dash allows the user to search for the weather of
                   any city and outputs the current weather as well as a five day
                   forecast.
+                </p>
+                <p className="cap description filler">
+                  Created With: HTML5, CSS3, JavaScript, and Bootstrap
                 </p>
               </div>
             </Fade>

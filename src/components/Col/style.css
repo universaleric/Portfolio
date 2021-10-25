@@ -84,7 +84,7 @@ figure {
   left: 250px;
   height: 200px;
   width: 650px;
-  margin: 0 0 1rem;
+  margin-bottom: 0px !important;
   bottom: 0px;
 }
 
@@ -104,6 +104,12 @@ figure {
 
 .description {
   font-size: 25px !important;
+  margin-bottom: 0px;
+}
+
+.filler {
+  font-size: 15px !important;
+  margin-bottom: 10px !important;
 }
 
 @media only screen and (max-width: 1600px) {
@@ -192,6 +198,10 @@ figure {
 
   .description {
     font-size: 20px !important;
+  }
+
+  .filler {
+    font-size: 15px !important;
   }
 }
 
@@ -321,10 +331,15 @@ figure {
     left: 0px !important;
     top: 10px;
     text-align: center;
+    margin: 0px 20px;
   }
 
   .description {
     font-size: 18px !important;
+  }
+
+  .filler {
+    font-size: 14px !important;
   }
 
   img {
@@ -381,7 +396,7 @@ figure {
   }
 
   figure {
-    left: 25px !important;
+    left: 20px !important;
   }
 
   .portrait {
