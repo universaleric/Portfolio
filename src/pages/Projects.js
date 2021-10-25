@@ -16,9 +16,7 @@ function Projects() {
           <Col size="md-6">
             <Fade left cascade>
               <div>
-                <figcaption className="cap">
-                  Example Museum Website
-                </figcaption>
+                <figcaption className="cap">Example Museum Website</figcaption>
                 <figure>
                   <a
                     href="https://smilleeymilleey.github.io/Artopolis-/"
@@ -34,7 +32,8 @@ function Projects() {
                 </figure>
                 <p className="cap description">
                   Artopolis is an example website that pulls art pieces from the
-                  APIs of three museums and displays them on the site. <a
+                  APIs of three museums and displays them on the site.{" "}
+                  <a
                     href="https://github.com/smilleeymilleey/Artopolis-"
                     target="_blank"
                     rel="noreferrer"
@@ -57,8 +56,9 @@ function Projects() {
                 </figure>
                 <p className="cap description">
                   This site allows the user to search for books from the Google
-                  Books API and save them to a list on a seperate tab. <a
-                    href="https://github.com/smilleeymilleey/Artopolis-"
+                  Books API and save them to a list on a seperate tab.{" "}
+                  <a
+                    href="https://github.com/universaleric/Book-Search"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -87,8 +87,9 @@ function Projects() {
                 </figure>
                 <p className="cap description">
                   This day planner allows the user to input daily tasks and save
-                  them to local storage. Hours are color coded. <a
-                    href="https://github.com/smilleeymilleey/Artopolis-"
+                  them to local storage. Hours are color coded.{" "}
+                  <a
+                    href="https://github.com/universaleric/Day-Planner"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -111,8 +112,9 @@ function Projects() {
                 <p className="cap description">
                   Weather Dash allows the user to search for the weather of any
                   city and outputs the current weather as well as a five day
-                  forecast. <a
-                    href="https://github.com/smilleeymilleey/Artopolis-"
+                  forecast.{" "}
+                  <a
+                    href="https://github.com/universaleric/WeatherDash"
                     target="_blank"
                     rel="noreferrer"
                   >
