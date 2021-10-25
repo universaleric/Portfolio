@@ -16,7 +16,9 @@ function Projects() {
           <Col size="md-6">
             <Fade left cascade>
               <div>
-                <figcaption className="cap">Example Museum Website</figcaption>
+                <figcaption className="cap">
+                  Example Museum Website
+                </figcaption>
                 <figure>
                   <a
                     href="https://smilleeymilleey.github.io/Artopolis-/"
@@ -31,8 +33,14 @@ function Projects() {
                   </a>
                 </figure>
                 <p className="cap description">
-                  Artopolis is an example website that pulls art pieces from
-                  the APIs of three museums and displays them on the site.
+                  Artopolis is an example website that pulls art pieces from the
+                  APIs of three museums and displays them on the site. <a
+                    href="https://github.com/smilleeymilleey/Artopolis-"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    (Github Link)
+                  </a>
                 </p>
                 <p className="cap description filler">
                   Created With: HTML5, CSS3, JavaScript, and Bootstrap
@@ -48,10 +56,18 @@ function Projects() {
                   </a>
                 </figure>
                 <p className="cap description">
-                  This site allows the user to search for books from the Google Books API and save them to a list on a seperate tab.
+                  This site allows the user to search for books from the Google
+                  Books API and save them to a list on a seperate tab. <a
+                    href="https://github.com/smilleeymilleey/Artopolis-"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    (Github Link)
+                  </a>
                 </p>
                 <p className="cap description filler">
-                  Created With: HTML5, CSS3, JavaScript, Mongoose, MongoDB, React, and Bootstrap
+                  Created With: HTML5, CSS3, JavaScript, Mongoose, MongoDB,
+                  React, and Bootstrap
                 </p>
               </div>
             </Fade>
@@ -71,8 +87,13 @@ function Projects() {
                 </figure>
                 <p className="cap description">
                   This day planner allows the user to input daily tasks and save
-                  them to local storage. Hours are color coded based on the
-                  current hour.
+                  them to local storage. Hours are color coded. <a
+                    href="https://github.com/smilleeymilleey/Artopolis-"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    (Github Link)
+                  </a>
                 </p>
                 <p className="cap description filler">
                   Created With: HTML5, CSS3, JavaScript, and Bootstrap
@@ -88,9 +109,15 @@ function Projects() {
                   </a>
                 </figure>
                 <p className="cap description">
-                  Weather Dash allows the user to search for the weather of
-                  any city and outputs the current weather as well as a five day
-                  forecast.
+                  Weather Dash allows the user to search for the weather of any
+                  city and outputs the current weather as well as a five day
+                  forecast. <a
+                    href="https://github.com/smilleeymilleey/Artopolis-"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    (Github Link)
+                  </a>
                 </p>
                 <p className="cap description filler">
                   Created With: HTML5, CSS3, JavaScript, and Bootstrap
