@@ -1,7 +1,7 @@
 .footer {
   height: 120px;
   background-color: #fff5ea;
-  position: fixed;
+  position: sticky;
   padding: 50px 30px;
   bottom: 0;
   left: 0;

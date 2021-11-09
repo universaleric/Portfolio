@@ -27,7 +27,7 @@ function Footer() {
   return (
     <footer className="footer">
       <span>
-        {data.content} -{data.author}
+        Random Quote: {data.content} -{data.author}
       </span>
     </footer>
   );

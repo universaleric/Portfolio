@@ -43,7 +43,7 @@ function Contact() {
           <Col size="md-4">
             <Fade>
               <img
-                className="portrait skillPortrait mobilePortrait"
+                className="portrait skillPortrait contactPortrait mobilePortrait"
                 src={Portrait}
                 alt="placeholder"
               />
