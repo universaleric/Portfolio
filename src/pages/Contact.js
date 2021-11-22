@@ -17,7 +17,7 @@ function Contact() {
                   <i class="fas fa-phone"></i> (972).955.2176
                 </li>
                 <li className="contact">
-                  <i className="fas fa-envelope"></i> ericdanielhay@yahoo.com
+                  <i className="fas fa-envelope"></i> ericdanielhay24@gmail.com
                 </li>
                 <li className="contact">
                   <i class="fab fa-github"></i>{" "}
