@@ -51,6 +51,7 @@ img {
   position: relative;
   list-style-type: none;
   left: 300px;
+  bottom: -50px;
   margin: 0;
   padding: 0;
   font-size: 50px;
@@ -79,7 +80,6 @@ figure {
   height: 200px;
   width: 650px;
   margin-bottom: 0px !important;
-  bottom: 100px;
 }
 
 .project {
@@ -93,7 +93,6 @@ figure {
   font-size: 35px;
   font-family: "Quicksand", sans-serif;
   left: 250px;
-  bottom: 100px;
 }
 
 .description {
@@ -144,6 +143,10 @@ figure {
     left: 350px;
   }
 
+  .contactPortrait {
+    left: 100px;
+  }
+
   .hedgehog {
     position: relative;
     bottom: 0;
@@ -155,7 +158,6 @@ figure {
     position: relative;
     list-style-type: none;
     left: 250px;
-    bottom: -50px;
     margin: 0;
     padding: 0;
     font-size: 30px;
@@ -246,6 +248,10 @@ figure {
   .portrait {
     height: 700px;
     align-items: center;
+  }
+
+  .contactPortrait {
+    left: 350px;
   }
 
   .about {
