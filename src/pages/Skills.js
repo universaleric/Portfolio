@@ -21,6 +21,8 @@ function Skills() {
                 <li>HTML5 </li>
                 <li>CSS </li>
                 <li>Javascript </li>
+                <li>Python</li>
+                <li>Django</li>
                 <li>MongoDB </li>
                 <li>MySQL </li>
                 <li>React.js </li>
